@@ -1,0 +1,34 @@
+/*
+** EPITECH PROJECT, 2021
+** my_isneg.c
+** File description:
+** N si valeur negative P si positive
+*/
+
+
+#include <unistd.h>
+
+int my_isneg(int n);
+
+void my_putchar(char ch) {
+
+    write(1, &ch, 1);
+
+}
+
+int my_isneg(void) {
+    
+    if (n < 0) {
+       
+        my_putchar(N);
+        
+        }
+
+    if (n > 0)
+
+          my_putchar(P);
+    
+        }
+    
+        return(0);
+}

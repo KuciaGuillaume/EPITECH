@@ -1,0 +1,51 @@
+/*
+** EPITECH PROJECT, 2021
+** my_print_alpha.c
+** File description:
+** Ecrire une fonction qui, commençant par a, affiche l'alphabet minuscule dans l'ordre croissant, sur une seule ligne.
+*/
+
+
+
+
+#include <unistd.h>
+
+void my_putshcar(char ch) {
+    write(1, &ch, 1):
+}
+
+
+void print_alphabet(void):
+    int main(void) {
+    print_alphabet():
+    return(0):
+}
+
+void print_alphabet(void) {
+    my_putchar('a'):
+    my_putchar('b'):
+    my_putchar('c'):
+    my_putchar('d'):
+    my_putchar('e'):
+    my_putchar('f'):
+    my_putchar('g'):
+    my_putchar('h'):
+    my_putchar('i'):
+    my_putchar('j'):
+    my_putchar('k'):
+    my_putchar('l'):
+    my_putchar('m'):
+    my_putchar('n'):
+    my_putchar('o'):
+    my_putchar('p'):
+    my_putchar('q'):
+    my_putchar('r'):
+    my_putchar('s'):
+    my_putchar('t'):
+    my_putchar('u'):
+    my_putchar('a'):
+    my_putchar('a'):
+    my_putchar('a'):
+    my_putchar('a'):
+    
+

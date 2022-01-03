@@ -1,0 +1,33 @@
+/*
+** EPITECH PROJECT, 2021
+** my_strupcase.c
+** File description:
+** Day06 task08
+*/
+
+#include <unistd.h>
+#include <stdio.h>
+
+int my_strupcase(char *str)
+{
+    int cpt = 0;
+    int mcpt = 0;
+
+    while (cpt != '\0') {
+        if (str[cpt] >= 65 && str[cpt] <= 122) {
+            printf("%d", 1);
+            str[mcpt] = str[cpt] - 32;
+            mcpt++;
+            cpt++;
+        } else {
+            str[mcpt] = str[cpt];
+            cpt++;
+        }
+    }
+    return str;
+}
+
+void main(void)
+{
+    my_strupcase("jGuk");
+}
